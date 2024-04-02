@@ -1,0 +1,23 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.in-row {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.center-vertical {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    height: 50px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}

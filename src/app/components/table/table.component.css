@@ -1,0 +1,19 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    row-gap: 24px;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.mt-32 {
+    margin-top: 32px;
+}
+
+.custom-table {
+    width: 80%;
+    text-align: center;
+}

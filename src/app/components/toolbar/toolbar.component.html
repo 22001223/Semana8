@@ -1,0 +1,26 @@
+<p>
+    <mat-toolbar color="primary">
+        <mat-toolbar-row>
+            <div class="in-row">
+                <img src="../../../assets/universidad-galileo.png" alt="Galileo Logo Image">
+                <span class="center-vertical">TAREA #8</span>
+            </div>
+            <span class="example-spacer"></span>
+            <button type="submit" mat-icon-button [matMenuTriggerFor]="menu" >
+                <mat-icon>menu</mat-icon>
+            </button>
+            <mat-menu #menu="matMenu">
+                <a routerLink="/">
+                    <button type="submit" mat-menu-item>
+                        Form
+                    </button>
+                </a>
+                <a routerLink="/table">
+                    <button type="submit" mat-menu-item>
+                        Table
+                    </button>
+                </a>    
+            </mat-menu>
+        </mat-toolbar-row>  
+    </mat-toolbar>
+</p>
